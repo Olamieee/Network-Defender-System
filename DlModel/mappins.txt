@@ -1,0 +1,12 @@
+Encoding mapping for proto: {'icmp': np.int64(0), 'tcp': np.int64(1), 'udp': np.int64(2)}
+Encoding mapping for service: {'dce_rpc': np.int64(0), 'dns': np.int64(1), 'ftp': np.int64(2), 'gssapi': np.int64(3), 'http': np.int64(4), 'smb': np.int64(5), 'smb;gssapi': np.int64(6), 'ssl': np.int64(7), 'unknown': np.int64(8)}
+Encoding mapping for conn_state: {'OTH': np.int64(0), 'REJ': np.int64(1), 'RSTO': np.int64(2), 'RSTOS0': np.int64(3), 'RSTR': np.int64(4), 'RSTRH': np.int64(5), 'S0': np.int64(6), 'S1': np.int64(7), 'S2': np.int64(8), 'S3': np.int64(9), 'SF': np.int64(10), 'SH': np.int64(11), 'SHR': np.int64(12)}
+Encoding mapping for dns_rejected: {'F': np.int64(0), 'T': np.int64(1)}
+Encoding mapping for ssl_version: {'TLSv10': np.int64(0), 'TLSv12': np.int64(1), 'TLSv13': np.int64(2), 'unknown': np.int64(3)}
+Encoding mapping for ssl_cipher: {'TLS_AES_128_GCM_SHA256': np.int64(0), 'TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256': np.int64(1), 'TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256': np.int64(2), 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA': np.int64(3), 'TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384': np.int64(4), 'unknown': np.int64(5)}
+Encoding mapping for ssl_resumed: {'F': np.int64(0), 'T': np.int64(1)}
+Encoding mapping for ssl_established: {'F': np.int64(0), 'T': np.int64(1)}
+Encoding mapping for http_trans_depth: {'1': np.int64(0), '10': np.int64(1), '2': np.int64(2), '3': np.int64(3), '4': np.int64(4), '5': np.int64(5), '6': np.int64(6), '7': np.int64(7), '8': np.int64(8), '9': np.int64(9)}
+Encoding mapping for http_method: {'GET': np.int64(0), 'HEAD': np.int64(1), 'POST': np.int64(2), 'unknown': np.int64(3)}
+Encoding mapping for http_version: {'1.1': np.int64(0), 'unknown': np.int64(1)}
+Encoding mapping for type: {'backdoor': np.int64(0), 'ddos': np.int64(1), 'dos': np.int64(2), 'injection': np.int64(3), 'mitm': np.int64(4), 'normal': np.int64(5), 'password': np.int64(6), 'ransomware': np.int64(7), 'scanning': np.int64(8), 'xss': np.int64(9)}
