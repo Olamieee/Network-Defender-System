@@ -3,3 +3,4 @@ networkDefenderApp/
 networkDefenderSystem/
 db.sqlite3
 manage.py
+.gitignore
